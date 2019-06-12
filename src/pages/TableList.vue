@@ -33,7 +33,7 @@
         <md-card>
           <md-card-header data-background-color="blue">
             <h4 class="title" style="display: inline-block" >简历列表</h4>
-            <md-button  data-background-color="blue" style="position: relative;left: 500px;font-size: medium;font-weight: bold" href="/#/user">新增简历</md-button>
+            <md-button  data-background-color="blue" style="float:right;font-size: medium;font-weight: bold" href="/#/user">推荐项目</md-button>
             <p class="category">可以选择简历推荐项目，选择单个简历可在下面的表查看其关联的项目信息</p>
           </md-card-header>
           <md-card-content>
@@ -66,7 +66,7 @@
                     </md-card-content>
                   </md-card>
                 </div>
-                <md-button  data-background-color="blue" style="float:left;position: relative;left: 110px;font-size: medium;font-weight: bold" @click="showDialog = true"  >推荐项目</md-button>
+                <md-button  data-background-color="blue" style="float:right;left: 150px;font-size: medium;font-weight: bold" @click="showDialog = true"  >新增简历</md-button>
               </md-table-toolbar>
 
               <md-table-row slot="md-table-row" slot-scope="{ item }" md-selectable="multiple" md-auto-select >
